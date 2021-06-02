@@ -1,24 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
+import Employee from ".componenets/employee";
 import "./App.css";
 
 function App() {
+  Employee
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ravi Here for Git demo
-        </a>
-      </header>
+     This is from Main component
+     <Employee></Employee>
     </div>
   );
 }
